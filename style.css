@@ -4,6 +4,7 @@
 }
 
 body {
+    min-width: 350px;
     font-family: sans-serif;
     line-height: 1.5;
 }
@@ -12,6 +13,40 @@ body {
     width: 95%;
     max-width: 1600px;
     margin: 0 auto;
+}
+
+/* Navigation */
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    padding: 2.5em 0;
+}
+
+.nav-list {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 25px;
+    background-color: #e5e9eb40;
+    backdrop-filter: blur(20px) saturate(1.7);
+}
+
+.nav-link {
+    padding: 0.5em 0.75em;
+    color: #072939;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.active {
+    background-color: #d3d8db;
 }
 
 /* Introduction */
