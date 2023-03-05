@@ -3,11 +3,104 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #fdfdfd;
+}
+
 .container {
     width: 95%;
     max-width: 1600px;
     margin: 0 auto;
 }
+
+/* Introduction */
+.introduction {
+    padding: 2em 0;
+}
+
+.greetings {
+    padding: 0.5em 1em;
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 25px 25px 25px 0;
+    background-color: #0C75DB;
+}
+
+.introduction-heading {
+    font-size: 3rem;
+}
+
+/* Featured Projects */
+.featured-projects {
+    padding: 2em 0;
+}
+
+.featured-projects-heading {
+    font-size: 2rem;
+}
+
+.project {
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #d4d0cf;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.project-type,
+.project-heading {
+    text-align: end;
+}
+
+.project-type {
+    color: #989796;
+}
+
+.project-heading {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.project-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Collaboration */
+.collaboration {
+    padding: 2em 0;
+    display: grid;
+    grid-gap: 1em;
+}
+
+.collaboration-heading,
+.collaboration-subheading {
+    grid-column: 1 / -1;
+}
+
+.collaboration-heading {
+    font-size: 2rem;
+}
+
+.collaboration-stage {
+    padding: 1em;
+    border: 1px solid #d4d0cf;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.collaboration-stage-icon {
+    font-size: 2rem;
+    color: #0d244a;
+}
+
+.collaboration-stage-heading {
+    margin: 0.5em 0;
+}
+
 
 /* Footer */
 
@@ -18,4 +111,22 @@ footer {
 
 .copyright {
     text-align: center;
+}
+
+/* Media Queries */
+
+@media (min-width: 675px) {
+    .collaboration {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .collaboration {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
