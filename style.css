@@ -116,6 +116,12 @@ header {
 /* Collaboration */
 .collaboration {
     padding: 2.5em 0;
+    display: grid;
+}
+
+.collaboration-heading,
+.collaboration-body {
+    grid-column: 1 / -1;
 }
 
 .collaboration-heading {
@@ -134,6 +140,31 @@ header {
     border-bottom: 3px solid #d4d0cf;
 }
 
+.collaboration-stage {
+    margin-top: 2em;
+    padding: 1em;
+    border: 2px solid #d4d0cf;
+    border-radius: 5px;
+}
+
+.collaboration-stage-icon,
+.collaboration-stage-heading {
+    color: #072939;
+}
+
+.collaboration-stage-icon {
+    font-size: 2.5rem;
+}
+
+.collaboration-stage-heading {
+    margin: 0.25em 0;
+    font-size: 1.25rem;
+}
+
+.collaboration-stage-body {
+    color: #4a4949;
+}
+
 /* Footer */
 
 footer {
@@ -144,4 +175,72 @@ footer {
 .copyright {
     color: #989796;
     text-align: center;
+}
+
+/* About */
+.bio {
+    padding: 2.5em 0;
+}
+
+.bio-heading {
+    font-size: 3rem;
+    color: #072939;
+}
+
+.bio-body {
+    color: #4a4949;
+    line-height: 1.75;
+    font-size: 1.125rem;
+}
+
+/* Skills */
+
+.skills {
+    padding: 2.5em 0;
+    display: grid;
+}
+
+.skills-heading {
+    font-size: 2rem;
+    color: #072939;
+    grid-column: 1 / -1;
+}
+
+.skills-subheading {
+    color: #4a4949;
+    grid-column: 1 / -1;
+}
+
+.skill {
+    margin-top: 1em;
+}
+
+.skill-title {
+    color: #072939;
+    font-size: 1.25rem;
+}
+
+.skill-body {
+    color: #4a4949;
+}
+
+/* Media Queries */
+@media (min-width: 875px) {
+    .collaboration {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+
+    .collaboration-stage {
+        margin: 0;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+
+    .skill {
+        margin: 0;
+    }
 }
