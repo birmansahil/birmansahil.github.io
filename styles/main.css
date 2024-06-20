@@ -60,6 +60,10 @@ section {
   margin: 65px auto;
 }
 
+section img {
+  width: 675px;
+}
+
 /* Hero Section */
 .hero-section {
   display: flex;
