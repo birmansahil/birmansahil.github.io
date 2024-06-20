@@ -61,15 +61,27 @@ section {
   margin: 65px auto;
 }
 
-/* Hero Section */
-.hero-section {
+/* Intro Section */
+.intro-section {
   display: flex;
   gap: 50px;
   align-items: center;
 }
 
-.hero-section img {
+.intro-section img {
   width: 425px;
+}
+
+/* Analytic Section */
+.analytic-section {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+i {
+  font-size: 40px;
+  color: inherit;
 }
 
 /* Button */
