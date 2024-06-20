@@ -19,7 +19,6 @@ img {
 }
 
 /* Header & Navbar */
-
 header {
   background-color: #e0e1dd;
 }
@@ -69,7 +68,6 @@ section {
 }
 
 /* Button */
-
 .btn {
   display: inline-block;
   padding: 5px 20px;
@@ -82,4 +80,11 @@ section {
 .btn:active {
   color: #fff;
   background-color: #778da9;
+}
+
+/* Product Details */
+.product-details {
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
