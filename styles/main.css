@@ -1,0 +1,39 @@
+body {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #e0e1dd;
+}
+
+nav {
+  width: 95%;
+  height: 65px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+a {
+  font-weight: bold;
+  color: #778da9;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #1b263b;
+}
