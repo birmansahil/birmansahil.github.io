@@ -1,7 +1,24 @@
+/* General Styles */
 body {
   color: #222;
+  line-height: 1.75;
   font-family: "Roboto", sans-serif;
 }
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Header & Navbar */
 
 header {
   background-color: #e0e1dd;
@@ -36,4 +53,33 @@ a:hover,
 a:focus,
 a:active {
   color: #1b263b;
+}
+
+/* Main & Section */
+section {
+  width: 95%;
+  margin: 65px auto;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 2px solid #778da9;
+  border-radius: 50px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  color: #fff;
+  background-color: #778da9;
 }
