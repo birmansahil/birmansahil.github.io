@@ -15,6 +15,7 @@ h3 {
 }
 
 img {
+  display: block;
   object-fit: cover;
 }
 
@@ -31,10 +32,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  font-size: 24px;
 }
 
 ul {
@@ -73,7 +70,7 @@ section {
 }
 
 /* Analytic Section */
-.analytic-section {
+.process-section {
   display: flex;
   text-align: center;
   justify-content: space-around;
