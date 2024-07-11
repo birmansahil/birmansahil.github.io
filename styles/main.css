@@ -25,6 +25,24 @@ header {
   border-bottom: 2px solid #fff;
 }
 
+.store-notices {
+  background-color: #fff;
+  /* border-bottom: 2px solid #fff; */
+}
+
+.notice {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice p {
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 nav {
   width: 95%;
   height: 65px;
