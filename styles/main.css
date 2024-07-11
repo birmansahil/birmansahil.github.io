@@ -138,6 +138,21 @@ i {
   transition: 1s;
 }
 
+/* Footer */
+footer {
+  border-top: 2px solid #fff;
+}
+
+.footer-section {
+  margin: 65px auto 0;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* Product Details */
 .product-details {
   display: flex;
