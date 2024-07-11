@@ -113,6 +113,9 @@ i {
 .btn {
   display: inline-block;
   padding: 5px 20px;
+  color: #9d769e;
+  font-weight: bold;
+  text-decoration: none;
   border: 2px solid #9d769e;
   border-radius: 50px;
 }
