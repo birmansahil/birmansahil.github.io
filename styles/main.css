@@ -31,7 +31,6 @@ header {
 
 .store-notices {
   background-color: #fff;
-  /* border-bottom: 2px solid #fff; */
 }
 
 .notice {
@@ -97,7 +96,7 @@ section {
   width: 425px;
 }
 
-/* Analytic Section */
+/* Process Section */
 .process-section {
   display: flex;
   text-align: center;
@@ -107,6 +106,30 @@ section {
 i {
   font-size: 40px;
   color: inherit;
+}
+
+/* About Us Section */
+.about-us-section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-us-section img {
+  width: 425px;
+  transform: scaleX(-1);
+}
+
+.about-us-section a {
+  font-weight: bold;
+  color: #9d769e;
+  text-decoration: none;
+}
+
+.about-us-section a:hover,
+.about-us-section a:focus,
+.about-us-section a:active {
+  border-bottom: 2px solid #9d769e;
 }
 
 /* Button */
