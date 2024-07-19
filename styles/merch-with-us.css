@@ -121,6 +121,95 @@ body {
     color: inherit;
   }
 
+  .application-section h2,
+  .application-section p {
+    text-align: center;
+  }
+
+  .application-section a {
+    font-weight: bold;
+    color: #9d769e;
+    text-decoration: none;
+  }
+  
+  .application-section a:hover,
+  .application-section a:focus,
+  .application-section a:active {
+    border-bottom: 2px solid #9d769e;
+  }
+
+  form {
+    margin-top: 50px;
+    padding: 50px;
+    /* border: 2px solid #9d769e; */
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  fieldset {
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    border: 0;
+  }
+
+  fieldset div {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  label, input {
+    display: block;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  label.required::after {
+    content: " *";
+    color: red;
+  }
+
+  input, select, textarea {
+    margin: 20px 0;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #9d769e;
+    background-color: transparent;
+  }
+
+  select {
+    color: gray;
+  }
+
+  input[type="file"] {
+    border: 0;
+    color: gray;
+  }
+
+  textarea {
+    background-color: transparent;
+  }
+
+  button {
+    padding: 7px 20px;
+    color: #9d769e;
+    font-weight: bold;
+    border: 2px solid #9d769e;
+    border-radius: 50px;
+    background-color: transparent;
+  }
+
+  button:hover,
+  button:focus,
+  button:active {
+    color: #fff;
+    background-color: #9d769e;
+  }
+
   /* Footer */
   footer {
     border-top: 2px solid #fff;

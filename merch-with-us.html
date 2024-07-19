@@ -112,6 +112,100 @@
           </p>
         </div>
       </section>
+
+      <section class="application-section">
+        <h2>Share your creativity with Humber Merch</h2>
+        <p>
+          Before submitting your application, please take a moment to review our
+          <a href="#">eligibility criteria and guidelines</a> Ensuring your
+          product meets our standards will help streamline the approval process
+          and increase the chances of your work being featured at Humber Merch.
+          Thank you for your attention to detail and dedication to excellence.
+        </p>
+
+        <form action="">
+          <h3>Product Application</h3>
+          <fieldset>
+            <div>
+              <label class="required" for="student-name">Full Name</label>
+              <input
+                type="text"
+                name="student-name"
+                id="student-name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="required" for="student-id">Student Id</label>
+              <input
+                type="text"
+                name="student-id"
+                id="student-id"
+                placeholder="n123456"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div>
+              <label class="required" for="product-name">Product Name</label>
+              <input
+                type="text"
+                name="product-name"
+                id="product-name"
+                placeholder="Silvers Rayleigh Poster"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="required" for="product-category"
+                >Product Category</label
+              >
+              <select name="product-category" id="product-category" required>
+                <option value="" disabled selected>
+                  ----- Select a product category -----
+                </option>
+                <option value="apparel">Apparel</option>
+                <option value="artwork">Art Work</option>
+                <option value="everyday-item">Everyday Item</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="required" for="product-images"
+                >Product Images</label
+              >
+              <input
+                type="file"
+                id="product-images"
+                name="product-images"
+                accept="image/*"
+                multiple
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div>
+              <label for="product-description">Product Description</label>
+              <textarea
+                rows="1"
+                name="product-description"
+                id="product-description"
+                placeholder="Share details about your product to help us expedite the review process"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit">Submit Application</button>
+        </form>
+      </section>
     </main>
 
     <footer>
