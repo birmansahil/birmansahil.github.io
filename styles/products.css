@@ -85,34 +85,41 @@ body {
     margin: 65px auto;
   }
 
-  .blogosphere-section h2,
-  .blogosphere-section p {
+  .products-section h2,
+  .products-section p {
     text-align: center;
   }
 
-  .blog {
-    margin: 50px 0;
-    padding: 0 50px;
-    display: flex;
-    align-items: center;
+  .products-grid {
+    margin-top: 50px;
+    display: grid;
     gap: 50px;
-    cursor: pointer;
-    border-radius: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    justify-items: center;
+  }
+
+  .product {
+    position: relative;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.375);
   }
 
-  .blog img {
-    width: 350px;
+  .product:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+    transition: 0.6s;
   }
 
-  .blog-description p {
-    text-align: left;
+  .product img {
+    margin: 0 auto;
+    width: 80%;
   }
 
-  .blog-meta {
+  .product p {
     font-weight: bold;
   }
-  
+
   /* Footer */
   footer {
     border-top: 2px solid #fff;
