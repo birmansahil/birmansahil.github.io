@@ -1,38 +1,98 @@
 [
     {
         "id" : 1,
-        "image_source" : "images/about-us.png",
-        "image_alt" : "alternate text",
-        "name" : "product 01"
+        "imageSource" : "images/woof.jpg",
+        "imageAlt" : "dog hoodie",
+        "name" : "Woof",
+        "student" : "Emily Johnson",
+        "price" : "$69.99"
     },
     {
         "id" : 2,
-        "image_source" : "images/behind-the-scenes.png",
-        "image_alt" : "alternate text",
-        "name" : "product 02"
+        "imageSource" : "images/creati-pen.jpg",
+        "imageAlt" : "artist pen",
+        "name" : "Creati Pen",
+        "student" : "Michael Davis",
+        "price" : "$34.99"
     },
     {
         "id" : 3,
-        "image_source" : "images/celebrating-diversity.png",
-        "image_alt" : "alternate text",
-        "name" : "product 03"
+        "imageSource" : "images/game-boy.jpg",
+        "imageAlt" : "game boy",
+        "name" : "Game Boy",
+        "student" : "Christopher Lee",
+        "price" : "$199.99"
     },
     {
         "id" : 4,
-        "image_source" : "images/collaboration.png",
-        "image_alt" : "alternate text",
-        "name" : "product 04"
+        "imageSource" : "images/treasure-map.jpg",
+        "imageAlt" : "treasue map",
+        "name" : "Treasure Map",
+        "student" : "Sophia King",
+        "price" : "$44.99"
     },
     {
         "id" : 5,
-        "image_source" : "images/vw-sticker.png",
-        "image_alt" : "alternate text",
-        "name" : "product 05"
+        "imageSource" : "images/soy-candle.jpg",
+        "imageAlt" : "soy candle",
+        "name" : "Soy Candle",
+        "student" : "Olivia Hall",
+        "price" : "$29.99"
     },
     {
         "id" : 6,
-        "image_source" : "images/about-us.png",
-        "image_alt" : "alternate text",
-        "name" : "product 06"
+        "imageSource" : "images/custom-hotwheels.jpg",
+        "imageAlt" : "custom hotwheels",
+        "name" : "Custom Hotwheels",
+        "student" : "Ethan Young",
+        "price" : "$79.99"
+    },
+    {
+        "id" : 7,
+        "imageSource" : "images/personalised-journal.jpg",
+        "imageAlt" : "personalised journal",
+        "name" : "Personalised Journal",
+        "student" : "Andrew Clark",
+        "price" : "$49.99"
+    },
+    {
+        "id" : 8,
+        "imageSource" : "images/diamond-ring.jpg",
+        "imageAlt" : "diamond ring",
+        "name" : "Diamong Ring",
+        "student" : "Lauren Lewis",
+        "price" : "$4999.99"
+    },
+    {
+        "id" : 9,
+        "imageSource" : "images/trust-fields.jpg",
+        "imageAlt" : "trust fields",
+        "name" : "Trust Fields",
+        "student" : "Andrew Clark",
+        "price" : "$499.99"
+    },
+    {
+        "id" : 10,
+        "imageSource" : "images/metal-cup.jpg",
+        "imageAlt" : "metal cup",
+        "name" : "Metal Cup",
+        "student" : "Megan Harris",
+        "price" : "$19.99"
+    },
+    {
+        "id" : 11,
+        "imageSource" : "images/desk-organizer.jpg",
+        "imageAlt" : "desk organizer",
+        "name" : "Desk Organizer",
+        "student" : "Jessica Martinez",
+        "price" : "$199.99"
+    },
+    {
+        "id" : 12,
+        "imageSource" : "images/knitted-beanie.jpg",
+        "imageAlt" : "knitted beanie",
+        "name" : "Knitted Beanie",
+        "student" : "Sarah Thompson",
+        "price" : "$49.99"
     }
 ]
