@@ -88,11 +88,17 @@ body {
   .product-details {
     display: flex;
     gap: 50px;
-    align-items: center;
+    align-items: start;
   }
   
   .product-details img {
     width: 675px;
+    border-radius: 5px;
+  }
+
+  .product-meta ul {
+    font-weight: normal;
+    font-size: 16px;
   }
 
   /* Button */
@@ -112,9 +118,6 @@ body {
     color: #fff;
     background-color: #9d769e;
   }
-  
-
-
   
   /* Footer */
   footer {

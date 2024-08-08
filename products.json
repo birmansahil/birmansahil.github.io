@@ -1,98 +1,182 @@
 [
     {
-        "id" : 1,
-        "imageSource" : "images/woof.jpg",
-        "imageAlt" : "dog hoodie",
-        "name" : "Woof",
-        "student" : "Emily Johnson",
-        "price" : "$69.99"
+        "id": 1,
+        "imageSource": "images/woof.jpg",
+        "imageAlt": "dog hoodie",
+        "name": "Woof",
+        "student": "Emily Johnson",
+        "price": "$69.99",
+        "description": "The 'Woof' dog hoodie is crafted with comfort and style in mind, designed to keep your furry friend cozy during chilly walks or lazy lounging. Made from premium, soft fabric, this hoodie ensures warmth while allowing for easy movement. Its stylish design features a snug fit and an easy-to-use fastening system, making it a practical and fashionable choice for any dog lover.",
+        "features": [
+            "Soft, high-quality fabric",
+            "Easy-to-use fastening system",
+            "Available in various sizes"
+        ],
+        "dimensions": "Length: 18 inches, Width: 12 inches, Neck: 14 inches"
     },
     {
-        "id" : 2,
-        "imageSource" : "images/creati-pen.jpg",
-        "imageAlt" : "artist pen",
-        "name" : "Creati Pen",
-        "student" : "Michael Davis",
-        "price" : "$34.99"
+        "id": 2,
+        "imageSource": "images/creati-pen.jpg",
+        "imageAlt": "artist pen",
+        "name": "Creati Pen",
+        "student": "Michael Davis",
+        "price": "$34.99",
+        "description": "The 'Creati Pen' is an essential tool for artists and creatives, designed for precision and ease. Its fine tip allows for intricate lines and details, making it perfect for sketching, drawing, and adding finishing touches to your artwork. The pen features quick-drying, smudge-resistant ink that ensures your work remains clean and crisp. The ergonomic design offers a comfortable grip for extended use.",
+        "features": [
+            "Fine tip for detailed work",
+            "Quick-drying, smudge-resistant ink",
+            "Ergonomic design for comfort"
+        ],
+        "dimensions": "Length: 6 inches, Diameter: 0.5 inches"
     },
     {
-        "id" : 3,
-        "imageSource" : "images/game-boy.jpg",
-        "imageAlt" : "game boy",
-        "name" : "Game Boy",
-        "student" : "Christopher Lee",
-        "price" : "$199.99"
+        "id": 3,
+        "imageSource": "images/game-boy.jpg",
+        "imageAlt": "game boy",
+        "name": "Game Boy",
+        "student": "Christopher Lee",
+        "price": "$199.99",
+        "description": "The 'Game Boy' is a refurbished classic gaming console that brings retro gaming nostalgia to life. This customized version has been carefully restored to ensure optimal performance and includes a selection of beloved classic games. Its sleek, portable design makes it easy to carry and play on the go. Whether you're a collector or a gamer, this Game Boy offers hours of entertainment and a touch of vintage charm.",
+        "features": [
+            "Refurbished for optimal performance",
+            "Custom color options",
+            "Includes a selection of classic games"
+        ],
+        "dimensions": "Length: 5 inches, Width: 3 inches, Height: 1.5 inches"
     },
     {
-        "id" : 4,
-        "imageSource" : "images/treasure-map.jpg",
-        "imageAlt" : "treasue map",
-        "name" : "Treasure Map",
-        "student" : "Sophia King",
-        "price" : "$44.99"
+        "id": 4,
+        "imageSource": "images/treasure-map.jpg",
+        "imageAlt": "treasure map",
+        "name": "Treasure Map",
+        "student": "Sophia King",
+        "price": "$44.99",
+        "description": "The 'Treasure Map' is a beautifully hand-drawn piece that evokes a sense of adventure and exploration. This map is meticulously aged to provide an authentic, antique look, making it an eye-catching addition to any room. Whether you're a history buff or a fan of treasure hunts, this map serves as both a unique decorative element and a conversation starter. It’s perfect for framing and displaying in your home or office.",
+        "features": [
+            "Hand-drawn artwork",
+            "Aged paper for an authentic look",
+            "Perfect for framing and display"
+        ],
+        "dimensions": "Length: 24 inches, Width: 18 inches"
     },
     {
-        "id" : 5,
-        "imageSource" : "images/soy-candle.jpg",
-        "imageAlt" : "soy candle",
-        "name" : "Soy Candle",
-        "student" : "Olivia Hall",
-        "price" : "$29.99"
+        "id": 5,
+        "imageSource": "images/soy-candle.jpg",
+        "imageAlt": "soy candle",
+        "name": "Soy Candle",
+        "student": "Olivia Hall",
+        "price": "$29.99",
+        "description": "The 'Soy Candle' is a hand-poured creation that adds warmth and relaxation to any environment. Made from natural soy wax and infused with essential oils, it provides a clean burn and a soothing aroma. Each candle is crafted with care, ensuring high-quality performance and a pleasing aesthetic. Ideal for creating a calm atmosphere in your home or as a thoughtful gift for someone special.",
+        "features": [
+            "Made from natural soy wax",
+            "Infused with essential oils",
+            "Burns clean and evenly"
+        ],
+        "dimensions": "Height: 4 inches, Diameter: 3 inches"
     },
     {
-        "id" : 6,
-        "imageSource" : "images/custom-hotwheels.jpg",
-        "imageAlt" : "custom hotwheels",
-        "name" : "Custom Hotwheels",
-        "student" : "Ethan Young",
-        "price" : "$79.99"
+        "id": 6,
+        "imageSource": "images/custom-hotwheels.jpg",
+        "imageAlt": "custom hotwheels",
+        "name": "Custom Hotwheels",
+        "student": "Ethan Young",
+        "price": "$79.99",
+        "description": "The 'Custom Hotwheels' collection features uniquely hand-painted toy cars that stand out in any collection. Each car is individually designed, offering exclusive artwork and vibrant colors that make these models a standout choice for collectors and enthusiasts alike. These limited edition pieces combine creativity with nostalgia, making them a perfect gift for any Hotwheels fan.",
+        "features": [
+            "Hand-painted designs",
+            "Limited edition pieces",
+            "High-quality materials"
+        ],
+        "dimensions": "Length: 2.5 inches, Width: 1 inch, Height: 1 inch"
     },
     {
-        "id" : 7,
-        "imageSource" : "images/personalised-journal.jpg",
-        "imageAlt" : "personalised journal",
-        "name" : "Personalised Journal",
-        "student" : "Andrew Clark",
-        "price" : "$49.99"
+        "id": 7,
+        "imageSource": "images/personalised-journal.jpg",
+        "imageAlt": "personalised journal",
+        "name": "Personalised Journal",
+        "student": "Andrew Clark",
+        "price": "$49.99",
+        "description": "The 'Personalised Journal' is a beautifully crafted journal tailored to your individual style. Featuring a customizable cover and high-quality paper, it’s perfect for jotting down notes, ideas, or sketches. With its elegant design and practical features, this journal makes an excellent gift or a personal keepsake for anyone who loves to write or create.",
+        "features": [
+            "Customizable cover",
+            "High-quality, acid-free paper",
+            "Elastic closure and bookmark"
+        ],
+        "dimensions": "Length: 8 inches, Width: 6 inches, Pages: 200"
     },
     {
-        "id" : 8,
-        "imageSource" : "images/diamond-ring.jpg",
-        "imageAlt" : "diamond ring",
-        "name" : "Diamong Ring",
-        "student" : "Lauren Lewis",
-        "price" : "$4999.99"
+        "id": 8,
+        "imageSource": "images/diamond-ring.jpg",
+        "imageAlt": "diamond ring",
+        "name": "Diamond Ring",
+        "student": "Lauren Lewis",
+        "price": "$4999.99",
+        "description": "The 'Diamond Ring' is a luxurious and timeless piece of jewelry, meticulously crafted to highlight the brilliance of its diamonds. Each ring is hand-finished to ensure the highest quality and features a classic design that makes it suitable for any special occasion. Perfect as an engagement ring or a cherished gift, this piece combines elegance with exceptional craftsmanship.",
+        "features": [
+            "High-quality diamonds",
+            "Handcrafted setting",
+            "Available in various sizes"
+        ],
+        "dimensions": "Ring Size: Custom, Diamond: 0.5 carat"
     },
     {
-        "id" : 9,
-        "imageSource" : "images/trust-fields.jpg",
-        "imageAlt" : "trust fields",
-        "name" : "Trust Fields",
-        "student" : "Andrew Clark",
-        "price" : "$499.99"
+        "id": 9,
+        "imageSource": "images/trust-fields.jpg",
+        "imageAlt": "trust fields",
+        "name": "Trust Fields",
+        "student": "Andrew Clark",
+        "price": "$499.99",
+        "description": "The 'Trust Fields' artwork is an evocative piece that captures the serenity and expansiveness of open landscapes. This original work features intricate details and vibrant colors, making it a captivating focal point for any room. Perfect for art collectors and enthusiasts, it brings a touch of nature and beauty into your space, ready to frame and display.",
+        "features": [
+            "Original artwork",
+            "High-quality print",
+            "Framed and ready to hang"
+        ],
+        "dimensions": "Length: 30 inches, Width: 24 inches"
     },
     {
-        "id" : 10,
-        "imageSource" : "images/metal-cup.jpg",
-        "imageAlt" : "metal cup",
-        "name" : "Metal Cup",
-        "student" : "Megan Harris",
-        "price" : "$19.99"
+        "id": 10,
+        "imageSource": "images/metal-cup.jpg",
+        "imageAlt": "metal cup",
+        "name": "Metal Cup",
+        "student": "Megan Harris",
+        "price": "$19.99",
+        "description": "The 'Metal Cup' is a sleek and durable drinking vessel made from high-quality stainless steel. Designed to keep beverages hot or cold for extended periods, this cup combines functionality with a modern aesthetic. Ideal for everyday use, it’s perfect for those who appreciate both form and function in their drinkware.",
+        "features": [
+            "High-quality stainless steel",
+            "Insulated for temperature retention",
+            "Durable and easy to clean"
+        ],
+        "dimensions": "Height: 4 inches, Diameter: 3 inches"
     },
     {
-        "id" : 11,
-        "imageSource" : "images/desk-organizer.jpg",
-        "imageAlt" : "desk organizer",
-        "name" : "Desk Organizer",
-        "student" : "Jessica Martinez",
-        "price" : "$199.99"
+        "id": 11,
+        "imageSource": "images/desk-organizer.jpg",
+        "imageAlt": "desk organizer",
+        "name": "Desk Organizer",
+        "student": "Jessica Martinez",
+        "price": "$199.99",
+        "description": "The 'Desk Organizer' is a beautifully handcrafted piece designed to enhance your workspace. Made from premium wood, it features multiple compartments for pens, notebooks, and other office essentials. Its elegant design not only keeps your desk tidy but also adds a touch of sophistication to your work environment.",
+        "features": [
+            "Handcrafted from premium wood",
+            "Multiple compartments",
+            "Sleek and stylish design"
+        ],
+        "dimensions": "Length: 12 inches, Width: 8 inches, Height: 5 inches"
     },
     {
-        "id" : 12,
-        "imageSource" : "images/knitted-beanie.jpg",
-        "imageAlt" : "knitted beanie",
-        "name" : "Knitted Beanie",
-        "student" : "Sarah Thompson",
-        "price" : "$49.99"
+        "id": 12,
+        "imageSource": "images/knitted-beanie.jpg",
+        "imageAlt": "knitted beanie",
+        "name": "Knitted Beanie",
+        "student": "Sarah Thompson",
+        "price": "$49.99",
+        "description": "The 'Knitted Beanie' is a cozy and stylish accessory, hand-knitted with soft, high-quality yarn. Designed to keep you warm during colder months, this beanie offers both comfort and fashion. Its stretchy fabric ensures a snug fit, making it a perfect addition to any winter wardrobe. Available in a variety of colors to suit your style.",
+        "features": [
+            "Hand-knitted with soft yarn",
+            "Available in various colors",
+            "Stretchy and comfortable fit"
+        ],
+        "dimensions": "Circumference: 20 inches, Height: 8 inches"
     }
 ]
