@@ -85,18 +85,50 @@ body {
     margin: 65px auto;
   }
 
-  .cart-section {
-    border: 2px solid red;
-  }
-
   table {
     margin-top: 50px;
     width: 100%;
-    border: 2px solid green;
   }
 
-  table td {
+  table,thead, tr {
+    border:2px solid#fff;
+  }
+
+  th, td {
+    padding: 10px 0;
+  }
+
+  td:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  td {
     text-align: center;
+  }
+
+  td img {
+    width: 125px;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+
+  button {
+    display: inline-block;
+    padding: 7px 20px;
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #ff0000;
+    border-radius: 50px;
+    background-color: transparent;
+  }
+  
+  button:hover,
+  button:focus,
+  button:active {
+    color: #fff;
+    background-color: #ff0000;
   }
 
   /* Button */
