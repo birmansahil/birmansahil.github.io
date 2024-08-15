@@ -119,6 +119,23 @@ body {
     color: #fff;
     background-color: #9d769e;
   }
+
+  /* Notification */
+  .notification {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    padding: 0 25px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.375);
+  }
+
+  .show {
+    display: block;
+  }
+  
   
   /* Footer */
   footer {
