@@ -28,7 +28,7 @@ fetch("products.json").then((response) => {
         <h4>Dimensions</h4>
         <p>${product.dimensions}</p>
 
-        <a class="btn" href="#">Add to cart</a>
+        <button onclick="addToCart(${product.id})">Add to cart</button>
     </div>
     `
 })

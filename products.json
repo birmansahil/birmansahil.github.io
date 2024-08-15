@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imageSource": "images/woof.jpg",
+        "imageSource": "images/woof.webp",
         "imageAlt": "dog hoodie",
         "name": "Woof",
         "student": "Emily Johnson",
@@ -16,7 +16,7 @@
     },
     {
         "id": 2,
-        "imageSource": "images/creati-pen.jpg",
+        "imageSource": "images/creati-pen.webp",
         "imageAlt": "artist pen",
         "name": "Creati Pen",
         "student": "Michael Davis",
@@ -31,7 +31,7 @@
     },
     {
         "id": 3,
-        "imageSource": "images/game-boy.jpg",
+        "imageSource": "images/game-boy.webp",
         "imageAlt": "game boy",
         "name": "Game Boy",
         "student": "Christopher Lee",
@@ -46,7 +46,7 @@
     },
     {
         "id": 4,
-        "imageSource": "images/treasure-map.jpg",
+        "imageSource": "images/treasure-map.webp",
         "imageAlt": "treasure map",
         "name": "Treasure Map",
         "student": "Sophia King",
@@ -61,7 +61,7 @@
     },
     {
         "id": 5,
-        "imageSource": "images/soy-candle.jpg",
+        "imageSource": "images/soy-candle.webp",
         "imageAlt": "soy candle",
         "name": "Soy Candle",
         "student": "Olivia Hall",
@@ -76,7 +76,7 @@
     },
     {
         "id": 6,
-        "imageSource": "images/custom-hotwheels.jpg",
+        "imageSource": "images/custom-hotwheels.webp",
         "imageAlt": "custom hotwheels",
         "name": "Custom Hotwheels",
         "student": "Ethan Young",
@@ -91,7 +91,7 @@
     },
     {
         "id": 7,
-        "imageSource": "images/personalised-journal.jpg",
+        "imageSource": "images/personalised-journal.webp",
         "imageAlt": "personalised journal",
         "name": "Personalised Journal",
         "student": "Andrew Clark",
@@ -106,7 +106,7 @@
     },
     {
         "id": 8,
-        "imageSource": "images/diamond-ring.jpg",
+        "imageSource": "images/diamond-ring.webp",
         "imageAlt": "diamond ring",
         "name": "Diamond Ring",
         "student": "Lauren Lewis",
@@ -121,7 +121,7 @@
     },
     {
         "id": 9,
-        "imageSource": "images/trust-fields.jpg",
+        "imageSource": "images/trust-fields.webp",
         "imageAlt": "trust fields",
         "name": "Trust Fields",
         "student": "Andrew Clark",
@@ -136,7 +136,7 @@
     },
     {
         "id": 10,
-        "imageSource": "images/metal-cup.jpg",
+        "imageSource": "images/metal-cup.webp",
         "imageAlt": "metal cup",
         "name": "Metal Cup",
         "student": "Megan Harris",
@@ -151,7 +151,7 @@
     },
     {
         "id": 11,
-        "imageSource": "images/desk-organizer.jpg",
+        "imageSource": "images/desk-organizer.webp",
         "imageAlt": "desk organizer",
         "name": "Desk Organizer",
         "student": "Jessica Martinez",
@@ -166,7 +166,7 @@
     },
     {
         "id": 12,
-        "imageSource": "images/knitted-beanie.jpg",
+        "imageSource": "images/knitted-beanie.webp",
         "imageAlt": "knitted beanie",
         "name": "Knitted Beanie",
         "student": "Sarah Thompson",
