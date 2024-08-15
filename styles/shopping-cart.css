@@ -98,8 +98,10 @@ body {
     padding: 10px 0;
   }
 
+  th:first-child,
   td:first-child {
     display: flex;
+    margin-left: 10px;
     align-items: center;
   }
 
@@ -111,6 +113,10 @@ body {
     width: 125px;
     margin-right: 50px;
     border-radius: 5px;
+  }
+
+  tfoot td {
+    font-weight: bold;
   }
 
   button {

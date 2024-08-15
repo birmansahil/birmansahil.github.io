@@ -10,7 +10,7 @@ fetch("products.json").then((response) => {
             
             <div class="product-meta">
                 <p>${product.name} <br /><span>by ${product.student}<span></p>
-                <p>${product.price}</p>
+                <p>$${product.price}</p>
             </div>
         </div>
         `

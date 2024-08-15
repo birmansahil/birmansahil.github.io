@@ -1,4 +1,5 @@
 const cartProducts = document.querySelector(".cart-products");
+const cartTotal = document.querySelector(".cart-total");
 
 let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
 
@@ -7,16 +8,20 @@ function renderCart() {
         return response.json();
     }).then(data => {
         const products = data.filter(product => cart.includes(product.id));
-    
+        total = 0;
+
         products.map(product => {
             cartProducts.innerHTML += `
             <tr>
-                <td><img src=${product.imageSource} alt=${product.imageAlt} /> ${product.name}</td>
+                <td><img src=${product.imageSource} alt=${product.imageAlt} /> ${product.name} by ${product.student}</td>
                 <td><button class="remove-item-btn" onclick="removeItem(${product.id})">Remove Item</button></td>
-                <td>${product.price}</td>
+                <td>$${product.price}</td>
             </tr>
             `
+            total += parseFloat(product.price);
         })
+
+        cartTotal.textContent = `$${total}`;
     })
 }
 
