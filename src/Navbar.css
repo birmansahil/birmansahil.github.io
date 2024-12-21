@@ -1,0 +1,15 @@
+nav {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 350px;
+    display: flex;
+    border: 2px solid magenta;   
+    transform: translateX(-50%);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

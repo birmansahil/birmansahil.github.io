@@ -1,9 +1,13 @@
-import Intro from './intro';
+import Intro from './Intro';
+import Navbar from './Navbar';
 import './App.css';
 
 function App() {
   return (
-    <Intro />
+    <>
+      <Navbar />
+      <Intro />
+    </>
   );
 }
 

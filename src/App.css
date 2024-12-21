@@ -69,6 +69,8 @@ img {
   left: 50%;
   color: var(--secondary-font-color);
   font-size: 2.25rem;
+  cursor: pointer;
+  transform: translateX(-50%);
   animation: up-down 1.5s linear infinite;
 }
 
