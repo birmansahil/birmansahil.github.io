@@ -1,13 +1,8 @@
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-:root {
-  --primary-font-color: #2a2f4f;
-  --secondary-font-color: #968beb;
-  --background-color: #fff;
 }
 
 html {
@@ -15,6 +10,14 @@ html {
   font-size: 62.5%;
 }
 
+/* Theme */
+:root {
+  --primary-font-color: #2a2f4f;
+  --secondary-font-color: #968beb;
+  --background-color: #fff;
+}
+
+/* Body */
 body {
   line-height: 1.75;
   color: var(--primary-font-color);
@@ -22,6 +25,7 @@ body {
   background-color: var(--background-color);
 }
 
+/* Typography */
 h1 {
   font-size: 4.25rem;
 }
@@ -31,64 +35,25 @@ p {
   font-weight: 600;
 }
 
+a {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/* Image */
 img {
   width: 100%;
   object-fit: cover;
-}
+} 
 
-.container {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.intro-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid red;
-}
-
-.intro-container p {
-  margin: 1rem 0;
-}
-
+/* Shared Components */
 .highlighted-text {
   color: var(--secondary-font-color);
 }
 
-.intro-image {
-  width: 275px;
-  height: 275px;
-}
-
-.down-arrow {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  color: var(--secondary-font-color);
-  font-size: 2.25rem;
-  cursor: pointer;
-  transform: translateX(-50%);
-  animation: up-down 1.5s linear infinite;
-}
-
-@keyframes up-down {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-5px); }
-  100% { transform: translateY(0px); }
-}
-
-
-
-@media (min-width: 725px) {
-  .container {
-    max-width: 1200px;
-  }
-
-  .intro-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+/* App Component */
+.App {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
 }

@@ -1,13 +1,13 @@
-import Intro from './Intro';
+import Intro from './components/Intro';
 import Navbar from './Navbar';
+import Projects from './Projects';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div className='App'>
       <Intro />
-    </>
+    </div>
   );
 }
 
