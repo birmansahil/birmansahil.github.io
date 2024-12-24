@@ -29,6 +29,7 @@
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.75rem;
+    cursor: pointer;
     color: var(--secondary-font-color);
     animation: float 1.5s infinite linear;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import birmansahil from "../birmansahil.png";
+import birmansahil from "../images/birmansahil.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import "./Intro.css";

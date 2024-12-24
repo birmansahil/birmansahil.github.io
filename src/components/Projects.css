@@ -1,0 +1,50 @@
+.projects-section {
+    border: 2px solid green;
+}
+
+.projects-section p {
+    margin: 1rem 0 2.5rem;
+}
+
+.projects-container {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.project {
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+}
+
+.project h3 {
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.project img {
+    border-radius: 10px;
+}
+
+/* Background for projects */
+.project:nth-child(1) {
+    background-color: var(--secondary-background-color);
+}
+
+.project:nth-child(2) {
+    background-color: #fdf1f0;
+}
+
+.project:nth-child(3) {
+    background-color: #e9fcfa;
+}
+
+.project:nth-child(4) {
+    background-color: #eaf3fC;
+}
+
+/* Media query */
+@media (min-width: 750px) {
+    
+}
