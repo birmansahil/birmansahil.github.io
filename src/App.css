@@ -14,8 +14,7 @@ html {
 :root {
   --primary-font-color: #2a2f4f;
   --secondary-font-color: #968beb;
-  --primary-background-color: #fff;
-  --secondary-background-color: #f0eefd;
+  --background-color: #fff;
 }
 
 /* Body */
@@ -23,7 +22,7 @@ body {
   line-height: 1.75;
   color: var(--primary-font-color);
   font-family: "Karla", serif;
-  background-color: var(--primary-background-color);
+  background-color: var(--background-color);
 }
 
 /* Typography */
