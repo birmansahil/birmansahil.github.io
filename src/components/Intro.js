@@ -13,9 +13,9 @@ const Intro = () => {
 
             <div className="intro-text">
                 <h1>Hey! I'm Sahil Birman 👋</h1>
-                <p>A <span className="highlighted-text">creatvie designer</span> and <span className="highlighted-text">developer</span> with a passion to create engaging and user experiences ✨</p>
+                <p>A <span className="highlighted-text">creatvie designer</span> and <span className="highlighted-text">developer</span> with a passion to create engaging user interfaces and user experiences ✨</p>
 
-                <div className="intro-social-links">
+                <div>
                     <a href="https://github.com/birmansahil">GitHub</a> &nbsp; / &nbsp;
                     <a href="https://www.linkedin.com/in/birmansahil/">LinkedIn</a> &nbsp; / &nbsp;
                     <a href="mailto:contact.birmansahil@gmail.com">Mail</a>

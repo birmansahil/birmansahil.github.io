@@ -1,9 +1,13 @@
 .projects-section {
-    border: 2px solid green;
+    margin: 5rem 0;
 }
 
 .projects-section p {
     margin: 1rem 0 2.5rem;
+}
+
+.projects-section p:last-of-type {
+    margin: 2.5rem 0 0 0;
 }
 
 .projects-grid {

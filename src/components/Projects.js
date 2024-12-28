@@ -5,7 +5,7 @@ import "./Projects.css";
 const Projects = () => {
     return(
         <div className="projects-section">
-            <h2>Crafted with Passion 👨‍💻</h2>
+            <h2>Crafted with Zeal 👨‍💻</h2>
             <p>Explore my latest creations blending <span className="highlighted-text">innovation</span> and <span className="highlighted-text">design</span></p>
             
             <div className="projects-grid">
@@ -39,8 +39,6 @@ const Projects = () => {
                     <img src={budgetTracker} alt="budget tracker" />
                 </div>
             </div>
-
-            <p>Check out my <a href="#">GitHub</a> for more!</p>
         </div>
     );
 }

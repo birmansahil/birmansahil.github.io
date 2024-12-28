@@ -1,5 +1,4 @@
 .intro-section {
-    border: 2px solid red;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,10 +15,6 @@
     margin: 0 auto;
     width: 275px;
     height: 275px;
-}
-
-.intro-social-links a {
-    color: var(--primary-font-color);
 }
 
 /* Scroll down arrow */
