@@ -15,6 +15,8 @@ html {
   --primary-font-color: #2a2f4f;
   --secondary-font-color: #968beb;
   --background-color: #fff;
+  --navbar-background-color: #968bebbf;
+  --navlink-background-color: #968beb;
 }
 
 /* Body */
