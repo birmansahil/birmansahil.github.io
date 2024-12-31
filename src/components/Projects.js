@@ -5,7 +5,7 @@ import "./Projects.css";
 const Projects = () => {
     return(
         <div className="projects-section">
-            <h2>Crafted with Zeal 👨‍💻</h2>
+            <h2>Projects I've Built 👨‍💻</h2>
             <p>Explore my latest creations blending <span className="highlighted-text">innovation</span> and <span className="highlighted-text">design</span></p>
             
             <div className="projects-grid">

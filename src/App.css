@@ -15,12 +15,13 @@ html {
   --primary-font-color: #2a2f4f;
   --secondary-font-color: #968beb;
   --background-color: #fff;
-  --navbar-background-color: #968bebbf;
-  --navlink-background-color: #968beb;
+  --navlink-active-color: #2a2f4f;
+  --navbar-background-color: #e5e5e7bf;
 }
 
 /* Body */
 body {
+  min-width: 375px;
   line-height: 1.75;
   color: var(--primary-font-color);
   font-family: "Karla", serif;

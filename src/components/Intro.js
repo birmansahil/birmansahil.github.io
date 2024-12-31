@@ -1,7 +1,5 @@
 import React from "react";
 import birmansahil from "../images/birmansahil.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import "./Intro.css";
 
 const Intro = () => {
@@ -21,8 +19,6 @@ const Intro = () => {
                     <a href="mailto:contact.birmansahil@gmail.com">Mail</a>
                 </div>
             </div>
-            
-            <FontAwesomeIcon className="scroll-down-arrow" icon={faAngleDown} />
         </div>
     );
 }
